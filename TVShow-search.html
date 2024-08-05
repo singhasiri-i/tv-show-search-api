@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Show Search</title>
+    <style>
+        #searchForm {
+            margin: 50px 50px;
+        }
+
+        input {
+            padding: 5px;
+            min-width: 280px;
+            height: 30px;
+            margin-right: 8px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        button {
+            padding: 10px;
+            height: 40px;
+            background-color: white;
+            border-radius: 4px;
+            border: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form id="searchForm">
+        <input type="text" name="query" placeholder="TV Show Search">
+        <button>Search</button>
+    </form>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="TVShow-search.js"></script>
+
+</html>
